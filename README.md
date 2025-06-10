@@ -37,7 +37,7 @@ Git uses a key-value store (SHA-1 hash) represents the content and stores everyt
 
 • Object Store --> .git/objects/ - where Git stores all blobs, trees and commits by SHA hash.
 
-•Tag --> a ref to a specific commit, often used for marking releases. 
+• Tag --> a ref to a specific commit, often used for marking releases. 
 
 -----------------------------------------------------------------------------------------------------------
 **Git Commands**
@@ -68,6 +68,7 @@ Git uses a key-value store (SHA-1 hash) represents the content and stores everyt
 
 -----------------------------------------------------------------------------------------------------------
 **3 areas  of Git**
+
 (1): Working Directory - Files you're editing
 
 (2): Staging Area (Index) - Changes marked for commit
