@@ -97,8 +97,60 @@ The Flow: [Working Directory] --> git add --> [Staging Area] --> git commit --> 
 • git reflog : view local HEAD history (even deleted branches)
 
 -----------------------------------------------------------------------------------------------------------
+**Git vs GitHub**
+
+Git (CLI) is a version control tool. It runs locally on the computer itself. The main purpose of Git is to track and manage code history on the CLI. Git can be used offline and it is Open Source. 
+
+GitHub is a Git repo for hosting and collaboration. It runds on the web (cloud). The main purpose of GitHub is to share code, manage code, open PRs, and collaborate on the GUI. It can't be used offline and is currently owned by Microsoft.  
+
+------------------------------------------------------------------------------------------------------------------------
 **README File**
 
 A README file is an essential component of any Git repository. It provides vital information about your project, helps new contributors to get started serves as the first point of reference for users. By including clear and comprehensive sections in the README file, you can ensure that a project is accessible, well documented andf welcoming to new contributors. 
 
 -----------------------------------------------------------------------------------------------------------
+**Branching**
+
+• git branch : list/create branches
+
+• git checkout -b <branch> : create & switch (older syntax)
+
+• git switch -c <branch> : modern version
+
+• git switch <branch> : switch branches safely
+
+• git branch -d <branch> : delete branch
+
+   --Note--
+
+• git switch is newer and more beginner friendly. It works only with newer git versions.
+
+• git branch only creates or lists, it does not switch. 
+
+• checkout still works but is multi-purpose and confusing. 
+
+----------------------------------------------------------------------------------------------------------
+**Visualise Branches & Logs**
+
+• git log --oneline : compact commit view
+
+• git log --graph : visual tree structure
+
+• git log --oneline --graph --all : compact. visual and full view. Great for debugging merges and           tracking branches, it shows whats really happening under the hood.
+
+---------------------------------------------------------------------------------------------------------
+**Rebase vs Merge**
+
+**Merge** is safe and friendly; it brings two branches together and **preserves history** (you can always see where the branch is joint) which makes it great for collaboration. It also creates a new commit called merge commit. It is useful for team workflows.
+
+**Rebase** rewrites history and creates a linear timeline with no merge commits - perfect for when you want to clean up before the pull request. 
+
+----------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
