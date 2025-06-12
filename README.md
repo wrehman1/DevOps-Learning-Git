@@ -132,11 +132,11 @@ A README file is an essential component of any Git repository. It provides vital
 ----------------------------------------------------------------------------------------------------------
 **Visualise Branches & Logs**
 
-• "git log --oneline" : compact commit view
+• `git log --oneline` : compact commit view
 
-• "git log --graph" : visual tree structure
+• `git log --graph` : visual tree structure
 
-• "git log --oneline --graph --all" : compact. visual and full view. Great for debugging merges and           tracking branches, it shows whats really happening under the hood.
+• `git log --oneline --graph --all` : compact. visual and full view. Great for debugging merges and           tracking branches, it shows whats really happening under the hood.
 
 ------------------------------------------------------------------------------------------------------
 **Rebase vs Merge**
