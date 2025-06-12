@@ -111,15 +111,15 @@ A README file is an essential component of any Git repository. It provides vital
 -----------------------------------------------------------------------------------------------------------
 **Branching**
 
-• git branch : list/create branches
+• *git branch* : list/create branches
 
-• git checkout -b <branch> : create & switch (older syntax)
+• *git checkout -b <branch>* : create & switch (older syntax)
 
-• git switch -c <branch> : modern version
+• *git switch -c <branch>* : modern version
 
-• git switch <branch> : switch branches safely
+• *git switch <branch>* : switch branches safely
 
-• git branch -d <branch> : delete branch
+• *git branch -d <branch>* : delete branch
 
    --Note--
 
@@ -132,11 +132,11 @@ A README file is an essential component of any Git repository. It provides vital
 ----------------------------------------------------------------------------------------------------------
 **Visualise Branches & Logs**
 
-• git log --oneline : compact commit view
+• *git log --oneline* : compact commit view
 
-• git log --graph : visual tree structure
+• *git log --graph* : visual tree structure
 
-• git log --oneline --graph --all : compact. visual and full view. Great for debugging merges and           tracking branches, it shows whats really happening under the hood.
+• *git log --oneline --graph --all* : compact. visual and full view. Great for debugging merges and           tracking branches, it shows whats really happening under the hood.
 
 ------------------------------------------------------------------------------------------------------
 **Rebase vs Merge**
@@ -148,15 +148,15 @@ A README file is an essential component of any Git repository. It provides vital
 ------------------------------------------------------------------------------------------------------
 **Git Stash & Pop**
 
-• 'git stash' : temporarily save uncomitted changes
+• *git stash* : temporarily save uncomitted changes
 
-• 'git stash list' : view all stashes
+• *git stash list* : view all stashes
 
-• 'git stash apply' : reapply latest stash (keeps stash)
+• *git stash apply* : reapply latest stash (keeps stash)
 
-• 'git stash pop' : reapply and delete the stash
+• *git stash pop* : reapply and delete the stash
 
-      *Use when switching branches mid-task and great for "I'm ready to commit, but I need to move".*
+Use when switching branches mid-task and great for "I'm ready to commit, but I need to move".
 
 ------------------------------------------------------------------------------------------------------
 **Reset, Revert and Cherry-Pick**
