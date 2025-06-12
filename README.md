@@ -148,7 +148,7 @@ A README file is an essential component of any Git repository. It provides vital
 ------------------------------------------------------------------------------------------------------
 **Git Stash & Pop**
 
-• *git stash* : temporarily save uncomitted changes
+• ''git stash'' : temporarily save uncomitted changes
 
 • *git stash list* : view all stashes
 
@@ -156,7 +156,7 @@ A README file is an essential component of any Git repository. It provides vital
 
 • *git stash pop* : reapply and delete the stash
 
-Use when switching branches mid-task and great for "I'm ready to commit, but I need to move".
+Use when switching branches mid-task and great for "I'm ready to commit, but I need to move.
 
 ------------------------------------------------------------------------------------------------------
 **Reset, Revert and Cherry-Pick**
