@@ -15,7 +15,7 @@ Git uses a key-value store (SHA-1 hash) represents the content and stores everyt
 -----------------------------------------------------------------------------------------------------------
 **Git Terminology**
 
-• *Repository* --> a Git project (tracked folder with a .git directory).
+• Repository --> a Git project (tracked folder with a .git directory).
 
 • Commit --> a snapshot of your files and metadata (author, timestamp, message, parent commit, etc).
 
@@ -164,8 +164,19 @@ Use when switching branches mid-task and great for "I'm ready to commit, but I n
 ![image](https://github.com/user-attachments/assets/1fa87126-433a-4389-b889-d742860faf03)
 
 ------------------------------------------------------------------------------------------------------
-**Fork & Pull Requests**
+**Fork & Pull Requests (PRs)**
 
+• __Fork__ : your own copy of someone else's repo (on GitHub)
+
+• __Clone__ the forked repo to your local machine
+
+• Make changes -> push to your fork
+
+• Open a __Pull Request__ (PR) to propse your changes
+
+      *Used in open source and cross-team workflows. Original repo owner is able to review, comment and merge*
+
+------------------------------------------------------------------------------------------------------
 
 
 
