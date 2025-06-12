@@ -138,14 +138,35 @@ A README file is an essential component of any Git repository. It provides vital
 
 • git log --oneline --graph --all : compact. visual and full view. Great for debugging merges and           tracking branches, it shows whats really happening under the hood.
 
----------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
 **Rebase vs Merge**
 
 **Merge** is safe and friendly; it brings two branches together and **preserves history** (you can always see where the branch is joint) which makes it great for collaboration. It also creates a new commit called merge commit. It is useful for team workflows.
 
 **Rebase** rewrites history and creates a linear timeline with no merge commits - perfect for when you want to clean up before the pull request. 
 
-----------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+**Git Stash & Pop**
+
+• 'git stash' : temporarily save uncomitted changes
+
+• 'git stash list' : view all stashes
+
+• 'git stash apply' : reapply latest stash (keeps stash)
+
+• 'git stash pop' : reapply and delete the stash
+
+      *Use when switching branches mid-task and great for "I'm ready to commit, but I need to move".*
+
+------------------------------------------------------------------------------------------------------
+**Reset, Revert and Cherry-Pick**
+
+![image](https://github.com/user-attachments/assets/1fa87126-433a-4389-b889-d742860faf03)
+
+------------------------------------------------------------------------------------------------------
+**Fork & Pull Requests**
+
+
 
 
 
