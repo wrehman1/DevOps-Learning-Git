@@ -44,27 +44,27 @@ Git uses a key-value store (SHA-1 hash) represents the content and stores everyt
 
 • git init: inilialises a new Git repo with .git directory
 
-• git add: stage changes
+• `git add` : stage changes
 
-• git commit: snapshot changes
+• `git commit` : snapshot changes
 
-• git status: show staged/unstaged work
+• `git status` : show staged/unstaged work
 
-• git log: show commit history
+• `git log` : show commit history
 
-• git diff: show what changed
+• `git diff` : show what changed
 
-• git config: set user/email
+• `git config` : set user/email
 
-• git help <command>: built-in-docs
+• `git help <command>` : built-in-docs
 
-• git clone: copy a remote repo
+• `git clone` : copy a remote repo
 
-• git rm: remove files
+• `git rm` : remove files
 
-• git mv: rename files
+• `git mv` : rename files
 
-• git restore: undo file chnages (modern)
+• `git restore` : undo file chnages (modern)
 
 -----------------------------------------------------------------------------------------------------------
 **3 areas  of Git**
@@ -80,21 +80,21 @@ The Flow: [Working Directory] --> git add --> [Staging Area] --> git commit --> 
 -----------------------------------------------------------------------------------------------------------
 **Viewing History**
 
-• git log : see commit history
+• `git log` : see commit history
 
-• git log --oneline --graph : visual summary
+• `git log --oneline --graph` : visual summary
 
-• git show <commit> : view a specific commit
+• `git show <commit>` : view a specific commit
 
-• git diff : compare unstaged vs last commit
+• `git diff` : compare unstaged vs last commit
 
-• git diff --staged : compare staged vs last commit
+• `git diff --staged` : compare staged vs last commit
 
     **BONUS**
     
-• git blame <file> : show who last changed each line
+• `git blame <file>` : show who last changed each line
 
-• git reflog : view local HEAD history (even deleted branches)
+• `git reflog` : view local HEAD history (even deleted branches)
 
 -----------------------------------------------------------------------------------------------------------
 **Git vs GitHub**
@@ -111,15 +111,15 @@ A README file is an essential component of any Git repository. It provides vital
 -----------------------------------------------------------------------------------------------------------
 **Branching**
 
-• *git branch* : list/create branches
+• `git branch` : list/create branches
 
-• *git checkout -b <branch>* : create & switch (older syntax)
+• `git checkout -b <branch>` : create & switch (older syntax)
 
-• *git switch -c <branch>* : modern version
+• `git switch -c <branch>` : modern version
 
-• *git switch <branch>* : switch branches safely
+• `git switch <branch>` : switch branches safely
 
-• *git branch -d <branch>* : delete branch
+• `git branch -d <branch>` : delete branch
 
    --Note--
 
@@ -148,13 +148,13 @@ A README file is an essential component of any Git repository. It provides vital
 ------------------------------------------------------------------------------------------------------
 **Git Stash & Pop**
 
-• ''git stash'' : temporarily save uncomitted changes
+• `git stash` : temporarily save uncomitted changes
 
-• *git stash list* : view all stashes
+• `git stash list` : view all stashes
 
-• *git stash apply* : reapply latest stash (keeps stash)
+• `git stash apply` : reapply latest stash (keeps stash)
 
-• *git stash pop* : reapply and delete the stash
+• `git stash pop` : reapply and delete the stash
 
 Use when switching branches mid-task and great for "I'm ready to commit, but I need to move.
 
