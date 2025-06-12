@@ -15,7 +15,7 @@ Git uses a key-value store (SHA-1 hash) represents the content and stores everyt
 -----------------------------------------------------------------------------------------------------------
 **Git Terminology**
 
-• Repository --> a Git project (tracked folder with a .git directory).
+• *Repository* --> a Git project (tracked folder with a .git directory).
 
 • Commit --> a snapshot of your files and metadata (author, timestamp, message, parent commit, etc).
 
