@@ -176,7 +176,25 @@ Use when switching branches mid-task and great for "I'm ready to commit, but I n
       *Used in open source and cross-team workflows. Original repo owner is able to review, comment and merge*
 
 ------------------------------------------------------------------------------------------------------
+**TYpical Git Workflow**
 
+![image](https://github.com/user-attachments/assets/b2226ff9-4a9e-4568-bf87-6cf0514844c7)
+
+------------------------------------------------------------------------------------------------------
+**Pre-Commit & Automation**
+
+In order to make sure everything runs smoothly and consistently, ensure that:
+
+1. You run linters/tests before comitting (e.g. pre-commit, Husky, tflint/sec etc).
+
+2. Prevent broken code from entering the repo.
+
+3. Hook into CI pipelines for formatting, testing and scanning.
+
+------------------------------------------------------------------------------------------------------
+**Common Mistakes**
+
+![image](https://github.com/user-attachments/assets/deae0cf4-77cc-42fb-93d6-d6acec307362)
 
 
 
