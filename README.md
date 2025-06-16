@@ -196,7 +196,19 @@ In order to make sure everything runs smoothly and consistently, ensure that:
 
 ![image](https://github.com/user-attachments/assets/deae0cf4-77cc-42fb-93d6-d6acec307362)
 
+------------------------------------------------------------------------------------------------------
+**How to go back to git work later**
 
+Command 1:
+      eval "$(ssh-agent -s)"
+      
+Command 2:
+      ssh-add ~/.ssh/coderco_demo
+
+Command 3: 
+      ssh -T git@github.com
+
+enter directory: cd git-lab
 
 
 
